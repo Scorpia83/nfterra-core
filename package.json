@@ -7,12 +7,15 @@
     "test": "test"
   },
   "scripts": {
+    "compile": "npx truffle compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@celo/contractkit": "^1.0.0",
+    "@hq20/contracts": "0.0.6",
+    "@openzeppelin/contracts": "^3.4.1",
     "web3": "^1.3.0"
   }
 }
